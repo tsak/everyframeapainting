@@ -28,6 +28,11 @@ Requires `ffmpeg` and Image Magick `convert` to be installed. Only tested on Lin
 
 See [movie.sh](movie.sh)
 
+```bash
+Usage:
+./movie.sh: <infile>.mp4 <outfile>.mp4 [-normal|-reverse] [xx%]
+```
+
 ## Example
 
 ### Input
@@ -42,6 +47,6 @@ Using `-normal` flag
 
 ![dampf.png](examples/dampf.n.png)
 
-### Convertin a movie
+### Converting a movie
 
 ![fire_r.gif](examples/fire_r.gif)
